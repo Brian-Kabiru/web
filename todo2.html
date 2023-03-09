@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+	#bse{background-color: grey;
+       color:white;
+       text-align: center;
+       position: relative;
+
+
+    animation-name: bcs;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-duration: 2s;
+    }
+
+     @keyframes bcs{
+      from {
+        transform: rotateY(0deg);
+      }
+      to{
+        transform: rotateY(360deg);
+      }
+     }
+     .navbar{
+      height:10px;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 20px;
+      text-decoration: none;
+      background: white;
+      position: fixed;
+      width: 100%;
+      border-radius: grey;
+      top:0;
+     }
+     .navbar ul{
+      list-style-type: none;
+     }
+     .navbar ul li{
+      display:inline;
+
+     }
+     .navbar ul li a{
+      background-color: white;
+  color: grey;
+     }
+     .navbar ul li a:hover{
+      background-color: #404040;
+  color: white;
+     }
+     .navbar ul li a:active{
+      background-color: #404040;
+  color: white;
+     }
+
+     .bgimg-1{
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      min-height: 100%;
+      min-width: 100%;
+      background-image: url('picturee.jfif');
+     }
+     .logo{
+      text-align: right;
+     }
+     a:link, a:visited {
+  background-color: #404040;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 30px;
+  border-bottom: #404040;
+  margin-inline: 5px;
+  border-radius: 5px;
+
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: #404040;
+  height: 30px;
+  border-radius: 5px;
+
+
+
+}
+.center{
+  text-align: center;
+  font-size: 20px;
+}
+input {
+  width: 300px;
+  height:40px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+button{
+ width: 100px;
+  height:40px;
+  border-radius: 5px;
+  margin-bottom: 5px; 
+  background-color: grey;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <div class="navbar">
+  <ul>
+  <li><a class="active" href="#"><i class="fa fa-home"></i>  HOME</a></li>
+  <li><a href="#About Me"><i class="fa fa-user"></i>  ABOUT</a></li>
+  <li><a href="#Welcome to my website"><i class="fa fa-th"></i>  INTERESTS</a></li>
+  <li><a href="#CONTACT"><i class="fa fa-phone"></i>  CONTACT</a></li>
+  <li style="float:right; margin-right: 10px;"><a href="#About Me"><a href="#"><i class="fa fa-search"></i>search</a><input type="search" placeholder="Search" required="text" style="height:30px;border-radius: 10px; width:200px; margin-inline: 10px;"><i class="fa fa-bars"></i></a></li>
+  </ul>
+</div>
+<div class="bgimg-1" id="home">
+</div>
+<div class="about">
+  <h3 style="text-align: center; font-family: sans-serif; font-size: 20px;"><a id="About Me"></a>About Me</h3>
+  <p class="center"><em>I love computing</em></p>
+   <p style="justify-items: inherit;"> 
+  I am Kabiru Brian.<br> Software Engineering student.<br> Multimedia university of kenya.<br>A motivated, adaptable and responsible youth.<br> IT certified associate about delivering outstanding quality services.<br>I have a methodical,customer-focused approach to work and a strong drive to see things through to completion.
+</p>
+<div>
+  <p style="font-size: 20px; text-align: center;"><i>Fashion blog</i></p>
+<img src="space1.jfif" alt="null" style="height:200px; width:200px; border-radius:20px; margin-inline:30px;"><img src="REISS.jfif" alt="null" style="height:200px; width:200px; border-radius:20px;"><br>
+</div>
+</div>
+<div class="website">
+  <h3 style="text-align: center; font-family: sans-serif; font-size: 20px;"><a id="Welcome to my website"></a>Welcome to my website</h3>
+
+  <p><i>One of the simpler yet most effective tools to master in Python are its data visualization and dashboarding libraries. Python dramatically extends what is possible when visualizing data. LIbraries such as matplotlib, seaborn, and plotly, provide you with the ability to create robust, complex, and highly customizable visualizations that can make any presentation or plot truly stand out. Moreover, by mastering the Dash package, you’ll be able to build incredibly rich dashboard web applications, deploy them and share them with colleagues, at zero cost. Many tasks that involve data are often a series of repetitive steps that are repeated on a daily or weekly basis. A great example of this is supply chain forecasting for example, where analysts perform weekly forecasts by following a series of data manipulation steps and simple forecasting techniques. 
+
+Python allows you to create scripts, which can be run and scheduled automatically when combined with some command-line knowledge. Moreover, with the use of functions, you can store complex data manipulation tasks usually performed on data and slightly adapt it to your needs, instead of re-creating analysis from scratch. </i></p>
+</div>
+<h3 style="text-align: center; font-family: sans-serif; font-size: 20px;">Areas of Interest</h3>
+<p><img src="Gray.jfif" alt="null" style="height:200px; width:200px; float:right; border-radius:20px; margin-inline: 30px;"><img src="cabinets.jfif" alt="null" style="height:200px; width:200px; float:right; border-radius:20px;"><img src="modern.jfif" alt="null" style="height:200px; width:200px; float:right; border-radius:20px; margin-inline: 30px;"><ul>
+<li><i class="fa fa-laptop"></i>  System Programming<br>
+<li><i class="fa fa-mobile"></i>  Android application Development<br>
+<li><i class="fa fa-cloud"></i>   Web Development<br>
+<li><i class="fa fa-upload"></i>  Power Platform User<br>
+<li><i class="fa fa-database"></i>  Network Engineer</P></li></ul><br><br>
+
+<div class="contact" style="text-align: center; font-family: sans-serif; font-size: 20px; font-weight: bold;"><a id="CONTACT"></a>CONTACT</div>
+<div class="addr" style="text-align:center; margin-bottom:30px;">
+  <i class="fa fa-map-marker"></i> Ongata-rongai, KENYA<br>
+        <i class="fa fa-phone"></i> Phone: +2541 13172475<br>
+        <i class="fa fa-envelope "></i> Email: bryankabiru01@gmail.com<br>
+      </div>
+      <div class="space">
+      
+      <form>
+        <p><i>I'd love your feedback</i>  <i class="fa fa fa-envelope"></i></p>
+            <input type="text" placeholder="Name" required name="Name">
+          
+            <input type="text" placeholder="Email" required name="Email"><br>
+          
+        
+        <input type="text" placeholder="Leave a note" required name="Message" style="height:100px; width:300px;">
+        <button type="submit">
+          <i class="fa fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+<footer style="min-height: 100px;
+min-width: 100px;
+color:white;
+background-color: grey;
+font-family: sans-serif;
+">
+
+<div class="contacts" style="text-align: center; size: 35px; margin-inline: 20px;">
+  <p>socials: 
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-snapchat "></i>
+    <i class="fa fa-pinterest"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i></p>
+  </div>
+  <div id="bse">
+  #Powered by KBinfosystems.co
+</div>
+</footer>
+</body>
+</html>
